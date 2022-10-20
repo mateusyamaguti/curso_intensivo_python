@@ -21,7 +21,7 @@ def digite_seu_nome():
 
 def seja_bem_vindo(name):
     print(f'Seja bem-vindo, {name}')
-    return 'Seja bem-vindo, Mateus'
+    return f'Seja bem-vindo, {name}'
 
 """
 Desafio 003
@@ -37,7 +37,7 @@ def soma1 ():
 
 """
 Desafio 004
-Problema: Faça vários programas que possam ler a informação do teclado e identifique cada item asseguir: 
+Problema: Faça vários programas que possam ler e receber a informação do teclado e identifique cada item asseguir: 
 classe, númerico, alfabético e alfanúmerico.
 Resolução do problema:
 """
@@ -63,7 +63,7 @@ def alfanumerico(valor):
 
 """
 Desafio 005
-Problema: Faça um programa que leia um número inteiro e mostre na tela
+Problema: Faça um programa que leia e receba um número inteiro e mostre na tela
           o seu sucessor.
 Resolução do problema:
 """
@@ -75,7 +75,7 @@ def sucessor(valor):
 
 """
 Desafio 006
-Problema: Crie um algoritmo que leia um número e mostre o seu drobro,
+Problema: Crie um algoritmo que leia e receba um número e mostre o seu drobro,
           triplo e raiz quadrada.
 Resolução do problema:
 """
@@ -89,7 +89,7 @@ def operacoes(valor):
 
 """
 Desafio 007
-Problema: Desenvolva um programa que leia as duas notas de um aluno,
+Problema: Desenvolva um programa que leia e receba as duas notas de um aluno,
           calcule e mostre a sua média.
 Resolução do problema:
 """
@@ -102,7 +102,7 @@ def media(nota1, nota2):
 
 """
 Desafio 008
-Problema: Escreva um programa que leia um valor em metros e o
+Problema: Escreva um programa que leia e receba um valor em metros e o
           exiba convertido em centímetros e milímetros.
 Resolução do problema:
 """
@@ -116,7 +116,7 @@ def conversao(metro):
 
 """
 Desafio 009
-Problema: Crie um programa que leia quanto dinheiro uma pessoa tem
+Problema: Crie um programa que leia e receba quanto dinheiro uma pessoa tem
           na carteira e mostre quantos dólares ela pode comprar.
 Resolução do problema:
 """
@@ -129,6 +129,8 @@ def carteira(real):
 
 
 if __name__== '__main__':
+    # remova a hashtag para executar a função
+
     # seja_bem_vindo("Mateus")
     # soma1()
     # tipo_primitivo(valor= 'Teste')

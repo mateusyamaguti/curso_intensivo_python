@@ -113,5 +113,5 @@ if __name__ == '__main__':
     # par_impar(numero=10)
     # passagem(distancia=450)
     # ano_bissexto(ano=2024)
-    maior_menor(num1=15, num2=20, num3=5)
+    # maior_menor(num1=15, num2=20, num3=5)
     pass

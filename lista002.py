@@ -28,7 +28,6 @@ Resolução do problema:
 def hipotenusa(cateto_oposto, cateto_adjacente):
     cateto_oposto = int(input('Informe o cateto oposto: '))
     cateto_adjacente = int(input('Informe o cateto adjacente: '))
-
     valor_hipotenusa = hypot(cateto_oposto, cateto_adjacente)  # H² = C² + C² // H² = (C² + C²) ** (1/2)
     print('Hipotenusa: {:.2f}'.format(valor_hipotenusa))
     return valor_hipotenusa
